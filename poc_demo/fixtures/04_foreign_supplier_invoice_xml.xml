@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic proprietary XML, NOT a certified UBL/Factur-X document. -->
+<Invoice>
+  <InvoiceNo>EU-845</InvoiceNo>
+  <IssueDate>2026-10-08</IssueDate>
+  <DueDate>2026-11-08</DueDate>
+  <Seller><Name>EuroParts GmbH</Name><Country>DE</Country></Seller>
+  <Buyer><Name>Demo Company</Name><Country>MA</Country></Buyer>
+  <Currency>EUR</Currency>
+  <Lines>
+    <Line><Description>Replacement component</Description><Quantity>2</Quantity><UnitNet>150.00</UnitNet><Net>300.00</Net></Line>
+  </Lines>
+  <Totals><Subtotal>300.00</Subtotal><Tax>0.00</Tax><PayableAmount>300.00</PayableAmount></Totals>
+</Invoice>

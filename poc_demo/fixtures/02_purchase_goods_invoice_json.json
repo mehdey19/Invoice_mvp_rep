@@ -1,0 +1,18 @@
+{
+  "supplier": {
+    "name": "Fournitures Casablanca SARL",
+    "ice": "001111222000033"
+  },
+  "bill": {
+    "ref": "FA-678",
+    "issued_on": "2026-10-05",
+    "payment_due": "2026-11-04",
+    "currency_code": "MAD"
+  },
+  "buyer": {"name": "Demo Company"},
+  "items": [
+    {"label": "Cartons d'emballage", "qty": 10, "unit_price_ht": "100.00", "vat_rate_percent": "20", "amount_ht": "1000.00"},
+    {"label": "Etiquettes", "qty": 5, "unit_price_ht": "40.00", "vat_rate_percent": "20", "amount_ht": "200.00"}
+  ],
+  "summary": {"net_ht": "1200.00", "vat": "240.00", "gross_ttc": "1440.00"}
+}

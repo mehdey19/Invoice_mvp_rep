@@ -1,0 +1,4 @@
+invoice_id,invoice_number,date,due_date,customer,supplier,subtotal,taxes,total,currency,payment_status
+INV-1001,INV-1001,2026-10-10,2026-11-10,Synthetic Atlas 1 SARL,Synthetic ERP Supplier,1000,200.0,1200.0,MAD,UNPAID
+INV-1002,INV-1002,2026-10-10,2026-11-10,Synthetic Atlas 2 SARL,Synthetic ERP Supplier,2000,400.0,2400.0,MAD,PAID
+INV-1003,INV-1003,2026-10-10,2026-11-10,Synthetic Atlas 3 SARL,Synthetic ERP Supplier,3000,600.0,3600.0,MAD,UNPAID

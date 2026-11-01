@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": "svc-invoice-501",
+    "doc_no": "PREST-501",
+    "issued_at": "2026-10-06T13:10:00+01:00",
+    "vendor": {"legal_name": "Conseil Digital SARL", "tax_id": "IF-TEST-501"},
+    "client": {"legal_name": "Demo Company"},
+    "service_period": {"from": "2026-09-01", "to": "2026-09-30"},
+    "services": [
+      {"description": "Maintenance informatique - septembre", "units": 1, "net": "2000.00"}
+    ],
+    "totals": {"ex_tax": "2000.00", "tax": "400.00", "including_tax": "2400.00", "currency": "MAD"}
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "public_data_preserved": true,
+  "tables_verified": 11,
+  "before": {
+    "company": {
+      "rows": 1,
+      "fingerprint": "358ced9397b61e1fea7e68a56d95f2fc"
+    },
+    "party": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "document": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "invoice": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "payment": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "invoice_line": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "payment_allocation": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "bank_transaction": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data_source": {
+      "rows": 23,
+      "fingerprint": "74d9907fdb11d19af8dffb9e9b694773"
+    },
+    "ingestion_run": {
+      "rows": 136,
+      "fingerprint": "be618ef9e0785e68b4299ed2cb2ec244"
+    },
+    "raw_artifact": {
+      "rows": 58,
+      "fingerprint": "268e5c04057f5fae08538593f7d0b4e5"
+    }
+  },
+  "after": {
+    "company": {
+      "rows": 1,
+      "fingerprint": "358ced9397b61e1fea7e68a56d95f2fc"
+    },
+    "party": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "document": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "invoice": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "payment": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "invoice_line": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "payment_allocation": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "bank_transaction": {
+      "rows": 0,
+      "fingerprint": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "data_source": {
+      "rows": 23,
+      "fingerprint": "74d9907fdb11d19af8dffb9e9b694773"
+    },
+    "ingestion_run": {
+      "rows": 136,
+      "fingerprint": "be618ef9e0785e68b4299ed2cb2ec244"
+    },
+    "raw_artifact": {
+      "rows": 58,
+      "fingerprint": "268e5c04057f5fae08538593f7d0b4e5"
+    }
+  }
+}

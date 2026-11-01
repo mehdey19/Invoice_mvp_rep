@@ -1,0 +1,90 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: invoice_finance
+      POSTGRES_USER: invoice_app
+      POSTGRES_PASSWORD: invoice_app
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U invoice_app -d invoice_finance"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    working_dir: /app
+
+    env_file:
+      - .env.example
+
+    environment:
+      DATABASE_URL: postgresql+psycopg://invoice_app:invoice_app@postgres:5432/invoice_finance
+      RAW_INVOICE_SOURCE_DIR: /app/source_invoices
+      RAW_INVOICE_STORAGE_DIR: /app/storage/raw/invoices
+      POC_IMAGES_DIR: /app/source_invoices
+      POC_RAW_DIR: /app/storage/raw/acquired
+      POC_MOCK_BASE_URL: http://mock-api:9090
+      POC_ALLOWED_HTTP_ORIGINS: http://mock-api:9090,http://127.0.0.1:9090,http://localhost:9090
+      DATABASE_SEARCH_PATH: integration_pipeline,canonical
+      AI_VISION_MODEL: ${AI_VISION_MODEL:-}
+      AI_VISION_BASE_URL: ${AI_VISION_BASE_URL:-http://host.docker.internal:11434}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      - .:/app
+      - ${POC_IMAGES_DIR:-/home/elmehdi/Desktop/invoices/test_invoices}:/app/source_invoices:ro
+
+    ports:
+      - "8000:8000"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    command: >
+      sh -c "alembic upgrade head
+      && python -m app.integration_pipeline.bootstrap
+      && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  mock-api:
+    build: .
+    working_dir: /app
+    environment:
+      POC_MOCK_HOST: 0.0.0.0
+    volumes:
+      - .:/app
+    ports:
+      - "9090:9090"
+    command: python -m poc_demo.mock_api
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:9090/mock/erp/invoices')"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  dashboard:
+    build: .
+    working_dir: /app
+    environment:
+      POC_BACKEND_URL: http://app:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    depends_on:
+      app:
+        condition: service_healthy
+    command: python -m streamlit run poc_demo/dashboard.py --server.address=0.0.0.0 --server.port=8501 --server.maxUploadSize=25 --browser.gatherUsageStats=false
+volumes:
+  postgres_data:

@@ -1,0 +1,14 @@
+.git
+.codex
+.agents
+.aws
+__pycache__
+**/__pycache__
+.pytest_cache
+.venv
+.env
+storage
+source_invoices
+*.log
+ai_models/weights/*
+!ai_models/weights/.gitkeep

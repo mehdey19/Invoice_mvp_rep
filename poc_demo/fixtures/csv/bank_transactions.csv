@@ -1,0 +1,4 @@
+transaction_id,booking_date,value_date,amount,currency,direction,description,counterparty,account_reference
+BANK-1,2026-10-12,2026-10-13,500,MAD,CREDIT,Synthetic bank transfer 1,Synthetic Partner 1,DEMO-MA-ACCOUNT-001
+BANK-2,2026-10-12,2026-10-13,1000,MAD,DEBIT,Synthetic bank transfer 2,Synthetic Partner 2,DEMO-MA-ACCOUNT-001
+BANK-3,2026-10-12,2026-10-13,1500,MAD,CREDIT,Synthetic bank transfer 3,Synthetic Partner 3,DEMO-MA-ACCOUNT-001

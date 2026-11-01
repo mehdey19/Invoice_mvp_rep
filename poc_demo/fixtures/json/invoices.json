@@ -1,0 +1,41 @@
+[
+  {
+    "invoice_id": "INV-1001",
+    "invoice_number": "INV-1001",
+    "date": "2026-10-10",
+    "due_date": "2026-11-10",
+    "customer": "Synthetic Atlas 1 SARL",
+    "supplier": "Synthetic ERP Supplier",
+    "subtotal": 1000,
+    "taxes": 200.0,
+    "total": 1200.0,
+    "currency": "MAD",
+    "payment_status": "UNPAID"
+  },
+  {
+    "invoice_id": "INV-1002",
+    "invoice_number": "INV-1002",
+    "date": "2026-10-10",
+    "due_date": "2026-11-10",
+    "customer": "Synthetic Atlas 2 SARL",
+    "supplier": "Synthetic ERP Supplier",
+    "subtotal": 2000,
+    "taxes": 400.0,
+    "total": 2400.0,
+    "currency": "MAD",
+    "payment_status": "PAID"
+  },
+  {
+    "invoice_id": "INV-1003",
+    "invoice_number": "INV-1003",
+    "date": "2026-10-10",
+    "due_date": "2026-11-10",
+    "customer": "Synthetic Atlas 3 SARL",
+    "supplier": "Synthetic ERP Supplier",
+    "subtotal": 3000,
+    "taxes": 600.0,
+    "total": 3600.0,
+    "currency": "MAD",
+    "payment_status": "UNPAID"
+  }
+]

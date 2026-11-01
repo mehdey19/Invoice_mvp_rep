@@ -1,0 +1,398 @@
+{
+  "bootstrap": {
+    "profiles_created": 0,
+    "documents": {
+      "linked": 60,
+      "errors": [
+        {
+          "artifact_id": "e3f42457-9675-49be-ad1f-f00ba420eee7",
+          "error": "Registered artifact file is unavailable"
+        }
+      ]
+    }
+  },
+  "acquisition": [
+    {
+      "source": "demo_bank_csv",
+      "run_id": "871f9aba-b261-4097-995c-ee6f24c366b8",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "demo_invoice_json",
+      "run_id": "2e06577f-7ade-49d9-844a-e725d79e5c0e",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "demo_invoice_images",
+      "run_id": "dbe679bf-08dd-4a8a-99da-b0968547bef5",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 10,
+      "duplicates": 10,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "demo_invoice_api",
+      "run_id": "2bc9a767-a3dd-447b-bc59-16696c708833",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_scenario_demo",
+      "run_id": "ccc49b50-5f53-410a-b918-ec6b1b86fc70",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 4,
+      "duplicates": 4,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_bank_api",
+      "run_id": "1a23cb14-7ebe-48bb-a7ee-f9b9c406bea8",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 4,
+      "duplicates": 4,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_bank_csv",
+      "run_id": "e1472171-1ec1-4d25-acee-bae7d954d3af",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_erp_a",
+      "run_id": "ab99004a-a151-439d-bdee-5afb55492b3f",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 4,
+      "duplicates": 4,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_erp_b",
+      "run_id": "85930810-cbf9-4a36-b274-83031f932930",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 4,
+      "duplicates": 4,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_invoice_images",
+      "run_id": "249be173-099c-437b-a9f0-07113a19a1dd",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 10,
+      "duplicates": 10,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_foreign_supplier_xml",
+      "run_id": "8b7f1a77-5534-4eb6-a608-2899764715b8",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_http_csv",
+      "run_id": "f228eb45-c8ce-4389-a97f-ec0e727c5f73",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_http_pdf",
+      "run_id": "b9aecaee-e7c6-4a9a-b8d3-029f90a60b12",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_http_xml",
+      "run_id": "4b6cde7b-4732-4e3f-86f8-c3d0d8bcfa5e",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_invoices_en",
+      "run_id": "57d2b8a3-424c-43d2-918c-3bf990561596",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_invoices_fr",
+      "run_id": "7634914c-14c9-4604-8b5d-5b5bb41d1fa9",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_invoices_json",
+      "run_id": "a0386df2-b60d-42c0-984b-0f140d0967e0",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_payments_api",
+      "run_id": "48ab3202-634d-48cd-82e1-2220ff4bc098",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 5,
+      "duplicates": 5,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_payments_csv",
+      "run_id": "44750a80-d6e8-4ddc-9c60-454a05153350",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_payments_json",
+      "run_id": "f25e6cca-0f1d-4827-bb2d-8493a1d3d0e8",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_pdf",
+      "run_id": "66f2420e-1bc4-47b9-b395-ef53a369b9a4",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_png",
+      "run_id": "a4143a3a-1966-401c-a9ee-3607c2cf7917",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_purchase_detailed_json",
+      "run_id": "88f23bbf-ddff-4a12-a473-935abe31e1ad",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_refunds_api",
+      "run_id": "5f19f956-a1d4-4044-8d68-fe1c7f9226eb",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 2,
+      "duplicates": 2,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_sales_detailed_csv",
+      "run_id": "df80025f-63b1-41a5-9cf8-7da8db1b54b3",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    },
+    {
+      "source": "poc_w1_xml",
+      "run_id": "0a91d232-745b-4d45-bb25-34ae68106435",
+      "status": "SUCCEEDED",
+      "acquired": 0,
+      "new_artifacts": 0,
+      "attempted": 1,
+      "duplicates": 1,
+      "errors": 0,
+      "error": null
+    }
+  ],
+  "normalization": [
+    {
+      "source": "poc_w1_purchase_detailed_json",
+      "run_id": "8422ae77-43ee-4e5d-bc16-2a8578c7b8bc",
+      "records": 1,
+      "applied": 1,
+      "skipped": 0,
+      "errors": 0,
+      "replay_applied": 0,
+      "replay_skipped": 1,
+      "issues": []
+    },
+    {
+      "source": "poc_w1_sales_detailed_csv",
+      "run_id": "7e430aa4-ed73-4f74-8114-d82fc02e20c3",
+      "records": 2,
+      "applied": 2,
+      "skipped": 0,
+      "errors": 0,
+      "replay_applied": 0,
+      "replay_skipped": 2,
+      "issues": []
+    },
+    {
+      "source": "poc_w1_foreign_supplier_xml",
+      "run_id": "e118266a-0df3-4035-a5ae-2762d0d33049",
+      "records": 1,
+      "applied": 1,
+      "skipped": 0,
+      "errors": 0,
+      "replay_applied": 0,
+      "replay_skipped": 1,
+      "issues": []
+    },
+    {
+      "source": "poc_w1_erp_a",
+      "run_id": "c0854161-5027-483c-aad9-0edca3dcc617",
+      "records": 3,
+      "applied": 3,
+      "skipped": 0,
+      "errors": 0,
+      "replay_applied": 0,
+      "replay_skipped": 3,
+      "issues": []
+    },
+    {
+      "source": "poc_w1_payments_json",
+      "run_id": "2bcadb24-a549-4103-be1e-9f534dc48349",
+      "records": 4,
+      "applied": 2,
+      "skipped": 0,
+      "errors": 2,
+      "replay_applied": 0,
+      "replay_skipped": 2,
+      "issues": [
+        {
+          "record": "PAY-4",
+          "errors": [
+            {
+              "field": "status",
+              "message": "Unmapped source status/value: REFUNDED"
+            }
+          ]
+        },
+        {
+          "record": "PAY-3",
+          "errors": [
+            {
+              "field": "status",
+              "message": "Unmapped source status/value: FAILED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "poc_w1_bank_csv",
+      "run_id": "a31478dd-cca2-44be-9091-fb5605b1e75a",
+      "records": 3,
+      "applied": 3,
+      "skipped": 0,
+      "errors": 0,
+      "replay_applied": 0,
+      "replay_skipped": 3,
+      "issues": []
+    }
+  ],
+  "canonical_counts": {
+    "document": 32,
+    "invoice": 7,
+    "party": 10,
+    "payment": 2,
+    "bank_transaction": 3,
+    "invoice_line": 3,
+    "payment_allocation": 0
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "payment_id": "PAY-1",
+    "transaction_date": "2026-10-11",
+    "amount": 600,
+    "currency": "MAD",
+    "method": "bank_transfer",
+    "status": "successful",
+    "counterparty": "Synthetic Customer 1",
+    "reference": "INV-1001"
+  },
+  {
+    "payment_id": "PAY-2",
+    "transaction_date": "2026-10-12",
+    "amount": 1200,
+    "currency": "MAD",
+    "method": "card",
+    "status": "pending",
+    "counterparty": "Synthetic Customer 2",
+    "reference": "INV-1002"
+  },
+  {
+    "payment_id": "PAY-3",
+    "transaction_date": "2026-10-13",
+    "amount": 1800,
+    "currency": "MAD",
+    "method": "bank_transfer",
+    "status": "failed",
+    "counterparty": "Synthetic Customer 3",
+    "reference": "INV-1003"
+  },
+  {
+    "payment_id": "PAY-4",
+    "transaction_date": "2026-10-14",
+    "amount": 2400,
+    "currency": "MAD",
+    "method": "card",
+    "status": "refunded",
+    "counterparty": "Synthetic Customer 4",
+    "reference": "INV-1004"
+  }
+]

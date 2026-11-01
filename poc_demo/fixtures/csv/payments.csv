@@ -1,0 +1,5 @@
+payment_id,transaction_date,amount,currency,method,status,counterparty,reference
+PAY-1,2026-10-11,600,MAD,bank_transfer,successful,Synthetic Customer 1,INV-1001
+PAY-2,2026-10-12,1200,MAD,card,pending,Synthetic Customer 2,INV-1002
+PAY-3,2026-10-13,1800,MAD,bank_transfer,failed,Synthetic Customer 3,INV-1003
+PAY-4,2026-10-14,2400,MAD,card,refunded,Synthetic Customer 4,INV-1004

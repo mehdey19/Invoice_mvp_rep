@@ -1,0 +1,15 @@
+{
+  "type": "AVOIR",
+  "numero": "AV-2026-09",
+  "date": "2026-10-09",
+  "facture_origine": "FA-678",
+  "emetteur": "Fournitures Casablanca SARL",
+  "destinataire": "Demo Company",
+  "montants": {
+    "ht": "-100.00",
+    "tva": "-20.00",
+    "ttc": "-120.00",
+    "devise": "MAD"
+  },
+  "motif": "Retour de marchandise"
+}

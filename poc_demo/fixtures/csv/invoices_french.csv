@@ -1,0 +1,4 @@
+Numero;Date;Client;Montant_TTC;Devise
+INV-1001;2026-10-10;Synthetic Atlas 1 SARL;1200.0;MAD
+INV-1002;2026-10-10;Synthetic Atlas 2 SARL;2400.0;MAD
+INV-1003;2026-10-10;Synthetic Atlas 3 SARL;3600.0;MAD

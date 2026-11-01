@@ -1,0 +1,280 @@
+{
+  "company_id": "aef33b6b-773c-43cd-ab86-6f3882f2092a",
+  "executed_at": "2026-10-23T01:42:27.503225+00:00",
+  "scenarios": [
+    {
+      "scenario": "All active sources",
+      "executions": 22,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 54,
+      "new_artifacts": 37,
+      "duplicates": 17,
+      "errors": 0,
+      "run_ids": [
+        "1cccf998-ed40-45e8-87dc-37741fcd5b80",
+        "7b017679-4154-41a6-98c5-cfa9d59cb327",
+        "83e06cfc-36b3-481f-ae3b-eb8c210c7953",
+        "5159bbc0-74a2-4782-8bf2-d431ee0116cc",
+        "636199e6-0292-4b9d-83a4-9d1e3833e713",
+        "0dd91ed2-60c5-49c3-9a4f-d9b0804b8016",
+        "9c3f065f-6322-4bcf-a07e-bee15b8e62b8",
+        "9fa51187-7b17-43e6-9e03-9d42f90efd09",
+        "8ff764d5-9051-468c-8d82-c46821914dd3",
+        "95f2a0b4-438e-415e-92cc-c94b3dd5a2dc",
+        "95b057bd-69fb-47ce-9d16-6c38e04d2daf",
+        "2025a3ff-103b-4317-ba6d-8e874c705e54",
+        "9c8a41dc-037f-42dd-acde-431d1bca3e88",
+        "91426ef5-ef74-405a-bbf1-f0a9f58d3839",
+        "2d028577-07d6-477f-baa3-f92907d15362",
+        "f722b799-8c1a-45d4-a076-179a7160341d",
+        "6b3b1c28-5fba-4849-907f-9c0aefdd5d8c",
+        "7085dc55-6d41-46ef-a88c-be3ed9186ef7",
+        "06dcb2a5-f949-41ff-abce-f3ea11e192c3",
+        "f1b6e5ff-1f04-4058-bdac-07f2b5c332dd",
+        "dbe074bf-88d5-4a09-856c-7e2b95a21ebf",
+        "59aad4f0-f3ac-4c26-b66c-b7ea52ccfd7a"
+      ]
+    },
+    {
+      "scenario": "Unchanged replay",
+      "executions": 22,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 54,
+      "new_artifacts": 0,
+      "duplicates": 54,
+      "errors": 0,
+      "run_ids": [
+        "c3e24924-729c-40b8-993b-fff62af2539c",
+        "b323d493-90d0-4eb1-8d70-4684a25f8500",
+        "f4ae6c9c-e8f9-4bdb-a4fe-79bca8ec6396",
+        "39d89182-4ac9-4642-8409-9b56ca20099c",
+        "5aa2c9f6-c806-4689-96b0-702406469a16",
+        "305483fd-091c-4290-8bd1-939677f405a1",
+        "e8b221d6-3bf5-4ba7-9f67-a64813021b3b",
+        "3bbd7386-71ab-4370-917d-97c8a1a2548c",
+        "6f802f35-6bcd-42a2-b3a4-46d30d983b3e",
+        "4f8d5e42-ad9e-47c4-b74f-bd7ab18c4609",
+        "12a85358-6e29-4fc7-87c5-af4720befcc0",
+        "ef80d6df-cd7d-4fdb-b1a0-9397f67c5190",
+        "16472297-9006-483e-a878-83baa4d291b9",
+        "3efdfe22-627f-4e65-ac45-188a57de6437",
+        "287acf68-ec4f-41cc-977c-bc0be873d48e",
+        "8fb6d5be-b0e8-480d-ab63-b023d0e84e54",
+        "d5d3f69e-40f4-4d94-ac15-9e0fc020219e",
+        "bb6d004b-dcc6-463c-bbc9-2408f0a45647",
+        "fee4cfef-4f47-4473-9b35-2be06b4e9f85",
+        "0bc35ce1-3216-4a01-860b-c537047e33cb",
+        "a5009543-37b2-47a2-9db2-2aedb595df2b",
+        "a889ff26-debf-4b64-8364-c0bbf2ca5d11"
+      ]
+    },
+    {
+      "scenario": "success",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 4,
+      "new_artifacts": 4,
+      "duplicates": 0,
+      "errors": 0,
+      "run_ids": [
+        "fffe4b2f-bdc0-44c1-a106-27b86c47cfa6"
+      ]
+    },
+    {
+      "scenario": "new",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 5,
+      "new_artifacts": 2,
+      "duplicates": 3,
+      "errors": 0,
+      "run_ids": [
+        "58567d50-d4e4-486e-8886-917fe685eb8b"
+      ]
+    },
+    {
+      "scenario": "updated",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 4,
+      "new_artifacts": 2,
+      "duplicates": 2,
+      "errors": 0,
+      "run_ids": [
+        "6676c468-864d-422d-ac52-87bf3d9bbd77"
+      ]
+    },
+    {
+      "scenario": "http500",
+      "executions": 1,
+      "statuses": [
+        "FAILED"
+      ],
+      "acquired": 0,
+      "new_artifacts": 0,
+      "duplicates": 0,
+      "errors": 1,
+      "run_ids": [
+        "9bca57cd-255a-45ed-b965-5738da4d5a4f"
+      ]
+    },
+    {
+      "scenario": "success",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 4,
+      "new_artifacts": 0,
+      "duplicates": 4,
+      "errors": 0,
+      "run_ids": [
+        "5ad0a7a8-19ea-4fd7-8eb3-34979463d023"
+      ]
+    },
+    {
+      "scenario": "paginated",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 5,
+      "new_artifacts": 2,
+      "duplicates": 3,
+      "errors": 0,
+      "run_ids": [
+        "0f309043-7e74-488c-8cc3-55e5508139ff"
+      ]
+    },
+    {
+      "scenario": "duplicates",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 5,
+      "new_artifacts": 1,
+      "duplicates": 4,
+      "errors": 0,
+      "run_ids": [
+        "817d7716-44e4-4879-a4e4-a2b65afc42ab"
+      ]
+    },
+    {
+      "scenario": "empty",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 1,
+      "new_artifacts": 1,
+      "duplicates": 0,
+      "errors": 0,
+      "run_ids": [
+        "acfda67f-cb10-4947-a9c4-26d51065df0c"
+      ]
+    },
+    {
+      "scenario": "http429",
+      "executions": 1,
+      "statuses": [
+        "FAILED"
+      ],
+      "acquired": 0,
+      "new_artifacts": 0,
+      "duplicates": 0,
+      "errors": 1,
+      "run_ids": [
+        "380faa61-e1ed-482b-86a1-6ab41f0d0d35"
+      ]
+    },
+    {
+      "scenario": "malformed",
+      "executions": 1,
+      "statuses": [
+        "FAILED"
+      ],
+      "acquired": 1,
+      "new_artifacts": 1,
+      "duplicates": 0,
+      "errors": 1,
+      "run_ids": [
+        "a321e227-024e-4bbd-a89b-fa934618dd68"
+      ]
+    },
+    {
+      "scenario": "success",
+      "executions": 1,
+      "statuses": [
+        "SUCCEEDED"
+      ],
+      "acquired": 4,
+      "new_artifacts": 0,
+      "duplicates": 4,
+      "errors": 0,
+      "run_ids": [
+        "8ecc358f-5a15-4091-978a-30c32ed969e6"
+      ]
+    }
+  ],
+  "external_id_versions": {
+    "INV-1001": 2
+  },
+  "verified_formats": [
+    "CSV",
+    "IMAGE",
+    "JSON",
+    "PDF",
+    "PNG",
+    "XML"
+  ],
+  "overview": {
+    "sources": 23,
+    "active_sources": 23,
+    "executions": 67,
+    "successful": 63,
+    "failed": 4,
+    "duplicates": 112,
+    "last_ingestion": "2026-10-23T01:42:30.947319+00:00",
+    "artifacts": 58,
+    "record_artifacts": 19,
+    "response_artifacts": 17,
+    "by_transport": [
+      {
+        "transport": "DIRECTORY",
+        "status": "FAILED",
+        "runs": 1
+      },
+      {
+        "transport": "DIRECTORY",
+        "status": "SUCCEEDED",
+        "runs": 6
+      },
+      {
+        "transport": "FILE",
+        "status": "SUCCEEDED",
+        "runs": 28
+      },
+      {
+        "transport": "HTTP_GET",
+        "status": "FAILED",
+        "runs": 3
+      },
+      {
+        "transport": "HTTP_GET",
+        "status": "SUCCEEDED",
+        "runs": 29
+      }
+    ]
+  }
+}

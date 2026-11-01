@@ -1,0 +1,4 @@
+[
+  {"id":"json-001", "number":"FV-001", "date":"2026-10-01", "total":"1250.00", "currency":"MAD"},
+  {"id":"json-002", "number":"FV-002", "date":"2026-10-02", "total":"750.00", "currency":"MAD"}
+]
